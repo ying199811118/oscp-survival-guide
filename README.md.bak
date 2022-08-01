@@ -20,7 +20,6 @@
 ### Script
 
 #### Privilege Escalation
-(Windows Priv Check)https://github.com/pentestmonkey/windows-privesc-check
-(Linux Priv Check)
-
+[Windows Priv Check](https://github.com/pentestmonkey/windows-privesc-check)
+[Linux Priv Check](https://github.com/HappyTreeFriend/linux-exploit-suggester)
 
