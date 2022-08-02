@@ -14,6 +14,7 @@
 - [WebShell Cheatsheet](https://github.com/danielmiessler/SecLists/tree/master/Web-Shells/FuzzDB)
 - [Linux Privilege Escalation](https://gtfobins.github.io/gtfobins/chown/)
 - [Web Encoding](https://www.w3schools.com/tags/ref_urlencode.asp)
+- [Active Directory](https://wadcoms.github.io/)
 
 ### External Tools
 - [Hash Crack](https://crackstation.net/)
