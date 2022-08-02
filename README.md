@@ -13,6 +13,7 @@
 - [Nmap Cheatsheet](https://www.stationx.net/nmap-cheat-sheet/)
 - [WebShell Cheatsheet](https://github.com/danielmiessler/SecLists/tree/master/Web-Shells/FuzzDB)
 - [Linux Privilege Escalation](https://gtfobins.github.io/gtfobins/chown/)
+- [Web Encoding](https://www.w3schools.com/tags/ref_urlencode.asp)
 
 ### External Tools
 - [Hash Crack](https://crackstation.net/)
