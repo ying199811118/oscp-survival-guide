@@ -15,6 +15,7 @@
 - [Linux Privilege Escalation](https://gtfobins.github.io/gtfobins/chown/)
 - [Web Encoding](https://www.w3schools.com/tags/ref_urlencode.asp)
 - [Active Directory](https://wadcoms.github.io/)
+- [Mona Cheat Sheet for finding bad chars](https://x3tb3t.github.io/2018/03/29/mona/#useful-mona-commands)
 
 ### External Tools
 - [Hash Crack](https://crackstation.net/)
