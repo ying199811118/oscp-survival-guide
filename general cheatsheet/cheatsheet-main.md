@@ -45,8 +45,9 @@ $ gobuster dir -u [target] -w SecLists/Discovery/Web-Content/raft-small-files.tx
 ### SMB [445 TCP]
 Tips
 * Use smb impacket package example
-* python3 smbserver.py -smb2support share /var/www/html
-
+```bash 
+python3 smbserver.py -smb2support share /var/www/html
+```
 
 ### FTP [21 TCP]
 
