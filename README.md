@@ -25,6 +25,7 @@ virtualenv -p python3 venv
 - [Web Encoding](https://www.w3schools.com/tags/ref_urlencode.asp)
 - [Active Directory](https://wadcoms.github.io/)
 - [Mona Cheat Sheet for finding bad chars](https://x3tb3t.github.io/2018/03/29/mona/#useful-mona-commands)
+- [Spwan TTY](https://sushant747.gitbooks.io/total-oscp-guide/content/spawning_shells.html)
 
 ### External Tools
 - [Hash Crack](https://crackstation.net/)
