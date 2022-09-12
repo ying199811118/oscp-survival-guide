@@ -10,6 +10,11 @@ virtualenv -p python3 venv
 # or you can even add it to your .bashrc
 ```
 
+SSH with old algo
+```bash
+ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss,ssh-rsa <Username>@<IP>
+```
+
 ## Contents & Resources
 
 ### OSCP Review and Guides
