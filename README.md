@@ -10,6 +10,18 @@ virtualenv -p python3 venv
 # or you can even add it to your .bashrc
 ```
 
+Chisel Cheatsheet
+```bash
+#Server
+./chisel server -p 8000 --reverse
+
+#Client
+./chisel client 192.168.10.11:8000 R:socks
+
+#Server
+proxychains command
+```
+
 SSH with old algo
 ```bash
 ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss,ssh-rsa <Username>@<IP>
