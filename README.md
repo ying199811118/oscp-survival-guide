@@ -49,7 +49,7 @@ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss,ssh
 - [Command Checklist](https://wadcoms.github.io/)
 - [AD Cheatsheet 1](https://gist.github.com/ssstonebraker/a1964b2f20acc8edb239409b6c4906ce)
 - [AD Cheatsheet 2](https://github.com/brianlam38/OSCP-2022/blob/main/cheatsheet-active-directory.md)
-
+- [PasstheHash](https://ares-x.com/2020/03/21/%E5%9F%9F%E6%B8%97%E9%80%8F%E5%AD%A6%E4%B9%A0%EF%BC%88%E5%85%AD%EF%BC%89PTH-%E5%93%88%E5%B8%8C%E4%BC%A0%E9%80%92%E6%94%BB%E5%87%BB/)
 ### External Tools
 - [Hash Crack](https://crackstation.net/)
 
