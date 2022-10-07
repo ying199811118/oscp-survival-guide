@@ -40,7 +40,7 @@ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss,ssh
 - [WebShell Cheatsheet](https://github.com/danielmiessler/SecLists/tree/master/Web-Shells/FuzzDB)
 - [Linux Privilege Escalation](https://gtfobins.github.io/gtfobins/chown/)
 - [Web Encoding](https://www.w3schools.com/tags/ref_urlencode.asp)
-
+- [Crackmapexec](https://cheatsheet.haax.fr/windows-systems/exploitation/crackmapexec/)
 - [Mona Cheat Sheet for finding bad chars](https://x3tb3t.github.io/2018/03/29/mona/#useful-mona-commands)
 - [Spwan TTY](https://sushant747.gitbooks.io/total-oscp-guide/content/spawning_shells.html)
 - [RevShell - Generator](https://www.revshells.com/) 
