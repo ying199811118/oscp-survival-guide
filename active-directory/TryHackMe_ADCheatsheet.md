@@ -1,27 +1,23 @@
-# Intercepting LDAP & SMB
+## Intercepting LDAP & SMB
 
-## Hosting Rogue LDAP Server
+### Hosting Rogue LDAP Server
 ```
-#TCP DUMP
 sudo tcpdump -SX -i breachad tcp port 389
 ```
 
-## Intercepting NetNTLM Challenge (SMB)
+### Intercepting NetNTLM Challenge (SMB)
 ```
-#Responder
 sudo responder -I tun0
 ```
 
-# Enumerating Active Directory
+## Enumerating Active Directory
 
-## Check Runas.exe
+### Check Runas.exe
 ```
 runas.exe /netonly /user:<domain>\<username> cmd.exe
 ```
-## Bloodhound & Sharphound
+### Bloodhound & Sharphound
 ```
-#in client
 Sharphound.exe --CollectionMethods <Methods> --Domain za.tryhackme.com --ExcludeDCs
-#in server
 neo4j console start
 
