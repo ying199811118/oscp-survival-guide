@@ -18,4 +18,10 @@ sudo responder -I tun0
 ```
 runas.exe /netonly /user:<domain>\<username> cmd.exe
 ```
+## Bloodhound & Sharphound
+```
+#in client
+Sharphound.exe --CollectionMethods <Methods> --Domain za.tryhackme.com --ExcludeDCs
+#in server
+neo4j console start
 
